@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
-    <title>General Trias || Log-in</title>
+    <link rel="stylesheet" href="register.css">
+    <title>General Trias || Sign Up</title>
     <link rel="shortcut icon" href="/images/logo.png">
 </head>
 <body>
@@ -24,18 +24,38 @@
                         <img src="images/Header_Logo_New.png">
                     </div>
                     <div>
-                        <h5>LOG IN TO YOUR ACCOUNT</h5>
+                        <h5>CREATE AN ACCOUNT</h5>
                 </div>
                 <div class="inputs">
                     <label for="email">Your Email:</label>
                     <input type="email" id="email" placeholder="Email"/>
                     <label for="password">Your Password:</label>
                     <input type="password" id="password" placeholder="Password"/>
+                    <label for="password">Confirm Password:</label>
+                    <input type="password" id="password" placeholder="Password"/>
+                    <label for="password">Address:</label>
+                    <div class="address">
+                    <input type="number" id="password" placeholder="Home Number"/>
+                    <input type="text" id="password" placeholder="Street Address"/>
+                    </div>
+                    <div class="gnb">
+                        <div class="gender">
+                        <label for="gender">Gender: </label>
+                        <div class="radio">
+                        <input type="radio" id="gender" name="gender"> Male
+                        <input type="radio" id="gender" name="gender"> Female
+                        </div>
+                        </div>
+                        <div class="gender">
+                        <label for="Birthday">Birthday: </label>
+                        <div class="birthday"><input type="date" id="Birthday"></div>
+                        </div>
+                    </div>
                     </div>
                     <div class="buttons">
-                    <button type="button" onclick="window.location.href='homepage.html';">LOG IN</button>
+                    <button type="button" onclick="window.location.href='homepage.html';">SIGN UP</button>
                     </div>
-                    <div style="margin-bottom:20px;">Don't have an account? <a href="register.html">Sign Up</a></div>
+                    <div style="margin-bottom:20px;">Already have an account? <a href="index.html">Log In</a></div>
                 </div>
                     
             </div>
